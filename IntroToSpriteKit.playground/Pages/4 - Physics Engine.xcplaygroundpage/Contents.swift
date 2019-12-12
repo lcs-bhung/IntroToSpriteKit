@@ -206,11 +206,11 @@ scene.physicsWorld.gravity
 // Exercise 1: Write your code below.
 //boulder.physicsBody?.restitution = 1
 // Exercise 2: Write your code below.
-crate.physicsBody?
+//crate.physicsBody?
 // Exercise 3: Write your code below.
-
+//hill.physicsBody?.friction = 0.3
 // Exercise 4: Write your code below.
-
+//scene.physicsWorld.gravity = CGVector(dx: 0, dy: 9.8)
 
 /*:
 
