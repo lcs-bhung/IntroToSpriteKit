@@ -186,7 +186,8 @@ let waitTwentySeondsThenMoveLeft = SKAction.sequence([actionTwentySecondWait, ac
 circle1.run(waitTwentySeondsThenMoveLeft)
 
 // Exercise 2: Write your code below.
-
+let waitTwentySecondsThenMoveUpLeft = SKAction.sequence ([actionTwentySecondWait, actionLeftMovement, actionUpwardsMovement])
+circle2.run(waitTwentySecondsThenMoveUpLeft)
 
 // Exercise 3: Write your code below.
 
