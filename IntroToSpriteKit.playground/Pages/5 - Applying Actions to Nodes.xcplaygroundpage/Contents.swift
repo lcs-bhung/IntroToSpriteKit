@@ -184,6 +184,7 @@ let actionLeftMovement = SKAction.move(by: moveLeftAmount, duration: 2)
 let actionTwentySecondWait = SKAction.wait(forDuration: 20)
 let waitTwentySeondsThenMoveLeft = SKAction.sequence([actionTwentySecondWait, actionLeftMovement])
 circle1.run(waitTwentySeondsThenMoveLeft)
+
 // Exercise 2: Write your code below.
 
 
