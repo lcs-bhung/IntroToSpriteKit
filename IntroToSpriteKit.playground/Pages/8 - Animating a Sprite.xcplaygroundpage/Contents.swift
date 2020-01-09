@@ -148,7 +148,7 @@ hero.run(actionWalkAndMoveFiveTimes)
 
 // Exercise: Write your code below
 let rocket = SKSpriteNode(imageNamed: "rocket")
-rocket.position = CGPoint(x: 370, y: 40)
+rocket.position = CGPoint(x: 370, y: 41)
 //Add the rocket to the scene
 scene.addChild(rocket)
 //Make an array of textures to make the animation

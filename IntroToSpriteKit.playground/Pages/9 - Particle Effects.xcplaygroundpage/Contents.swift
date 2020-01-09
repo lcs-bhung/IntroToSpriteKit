@@ -180,8 +180,11 @@ character.run(throwFireBallRepeatedly)
 // Exercise 1: Write your code below.
 
 // Here is some starter code (assuming that your new particle emitter file is named "Snow.sks"
-if let snowstorm = SKEmitterNode(fileNamed: "Snow") {
+if let snowstorm = SKEmitterNode(fileNamed: "Snow1") {
+    //Determine the position to spawn particles
+    snowstorm.position = CGPoint(x: 0, y: 300)
 
+    scene.addChild(snowstorm)
     // Position the node and add to scene – write the code to make this happen
     
 }
